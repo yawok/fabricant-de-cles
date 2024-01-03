@@ -1,0 +1,58 @@
+:root {
+    --backgroun-colour: #010B13;
+    --primary-colour: #1D7352;
+    --secondary-colour: #F2F4F3;
+    --tertiary-colour: #BBBBBB;
+    --primary-font-size: 48px;
+    --secondary-font-size: 36px;
+    --tertiary-font-size: 24px;
+}
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--backgroun-colour);
+    color: var(--secondary-colour);
+    font-size: var(--primary-font-size);
+    margin: 100px 200px;
+}
+
+h1 {
+    margin: 0px; 
+}
+
+.subtitle {
+    margin: 0;
+}
+
+.random-password {
+    color: var(--primary-colour);
+}
+
+button {
+    font-size: var(--secondary-font-size);
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+    background-color: var(--primary-colour);
+    color: var(--secondary-colour);
+}
+
+p {
+    font-size: var(--secondary-font-size);
+    color: var(--tertiary-colour);
+    margin: 0 30px;
+    
+}
+
+#password-el {
+    color: var(--primary-colour);
+    background-color: var(--tertiary-colour);
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 600px;
+}
+
+div {
+    display: flex;
+    margin-top: 70px;
+}
