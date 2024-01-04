@@ -17,11 +17,11 @@ body {
 }
 
 h1 {
-    margin: 0px; 
+    margin: 0px 0px 5px 0px; 
 }
 
 .subtitle {
-    margin: 0;
+    margin: 15px 0 0 0;
 }
 
 .random-password {
@@ -46,10 +46,14 @@ p {
 
 #password-el {
     color: var(--primary-colour);
-    background-color: var(--tertiary-colour);
+    background-color: var(--secondary-colour);
     padding: 10px 20px;
     border-radius: 5px;
     width: 600px;
+}
+
+#password-el:hover {
+    cursor: pointer;
 }
 
 div {

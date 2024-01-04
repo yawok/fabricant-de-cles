@@ -22,6 +22,9 @@ generateBtn.addEventListener("click", function () {
     passwordEl.textContent = password
 })
 
-// To do
-// Add event listener to password element to copy text to clipboard when clicked
-// Add a toast notification too when copied to clipboard
+passwordEl.addEventListener("click", function() {
+    if (passwordEl.textContent !== "")  {
+        navigator.clipboard.writeText(passwordEl.textContent)
+        alert("Copied to clipboard!")
+    }
+})
