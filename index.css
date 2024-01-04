@@ -13,7 +13,7 @@ body {
     background-color: var(--backgroun-colour);
     color: var(--secondary-colour);
     font-size: var(--primary-font-size);
-    margin: 100px 200px;
+    margin: 50px;
 }
 
 h1 {
@@ -54,5 +54,44 @@ p {
 
 div {
     display: flex;
+    flex-direction: row;
     margin-top: 70px;
 }
+
+/* to-do
+1. Add mobile responsiveness :(
+This is some code to begin with
+
+@media only screen and (max-width: 600px) {
+    :root {
+        --backgroun-colour: #010B13;
+        --primary-colour: #1D7352;
+        --secondary-colour: #F2F4F3;
+        --tertiary-colour: #BBBBBB;
+        --primary-font-size: 14px;
+        --secondary-font-size: 14px;
+        --tertiary-font-size: 14px;
+    }
+
+    body {
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: var(--backgroun-colour);
+        color: var(--secondary-colour);
+        font-size: var(--primary-font-size);
+        margin: 5px;
+    }
+
+    div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #password-el {
+        color: var(--primary-colour);
+        background-color: var(--tertiary-colour);
+        padding: 10px 20px;
+        border-radius: 5px;
+        width: 100%;
+    }
+}
+*/
